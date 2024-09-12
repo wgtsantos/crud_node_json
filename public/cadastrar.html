@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Cadastrar Produto </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/estilo.css"/>
+    </head>
+    <body>         
+        <header class="bg-primary text-white text-center py-5">
+            <div class="container">
+                <a href="/admin" class="btn btn-lg btn-light"> Voltar </a>
+            </div>
+        </header>
+        <main class="py-5">
+            <section class="py-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <h3 class="text-center mb-4"> Cadastrar Produto </h3>
+                            <form action="#" method="post" name="cadastro" id="cadastro" enctype="multipart/form-data">
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label"> Nome </label>
+                                    <input class="form-control" type="text" name="nome" id="nome" placeholder="Informe o nome do produto" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fabricante" class="form-label"> Fabricante </label>
+                                    <input class="form-control" type="text" name="fabricante" id="fabricante" placeholder="Informe o nome do fabricante" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="valor" class="form-label"> Valor </label>
+                                    <input class="form-control" type="number" name="valor" id="valor" placeholder="Informe o valor do produto" step="0.01" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="quantidade" class="form-label"> Quantidade </label>
+                                    <input class="form-control" type="number" name="qtde" id="qtde" placeholder="Informe a quantidade" min="1" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="anexar" class="form-label"> Anexar Imagem do Produto </label>
+                                    <input class="form-control" type="file" name="img_prod" id="img_prod" accept="image/*" required>
+                                </div>
+                                <div class="text-center">
+                                    <input class="btn btn-primary" type="submit" name="cadastrar" id="cadastrar" value="CADASTRAR">
+                                    <input class="btn btn-danger" type="reset" name="cancelar" id="cancelar" value="CANCELAR">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-info text-black text-center py-4">
+            
+            <div class="container">
+                <p> &copy; 2024 Minha LandPage. Todos os direitos Reservados. </p>
+                <ul class="list-inline">
+                    <li class="list-inline-item">  
+                        <a href="#" class="text-black-50"> Política de Privaciade </a>
+                    </li>
+                    <li class="list-inline-item"> 
+                        <a href="#" class="text-black-50"> Termos de Uso </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./js/cadastrar.js"></script>
+    </body>
+</html>

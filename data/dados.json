@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1726000112898,
+    "nome": "Mouse Gamer",
+    "fabricante": "Logitech",
+    "valor": 230.9,
+    "quantidade": 5,
+    "img_produto": "/uploads/1726000112894.jpg"
+  },
+  {
+    "id": 1726001327861,
+    "nome": "Teclado Mecânico",
+    "fabricante": "RedDragon",
+    "valor": 560.99,
+    "quantidade": 5,
+    "img_produto": "/uploads/1726001327859.jpg"
+  },
+  {
+    "id": 1726073464578,
+    "nome": "Monitor Gamer 165hz",
+    "fabricante": "Asus TUF",
+    "valor": 2988.99,
+    "quantidade": 3,
+    "img_produto": "/uploads/1726073464572.jpg"
+  },
+  {
+    "id": 1726073536738,
+    "nome": "HeadSet Gamer",
+    "fabricante": "Kingston HyperX",
+    "valor": 270.99,
+    "quantidade": "6",
+    "img_produto": "/uploads/1726073536737.jpg"
+  },
+  {
+    "id": 1726073642280,
+    "nome": "WaterCooler H55 120mm",
+    "fabricante": "Corsair",
+    "valor": 350.99,
+    "quantidade": 7,
+    "img_produto": "/uploads/1726073642279.jpg"
+  },
+  {
+    "id": 1726073700145,
+    "nome": "PlayStation 5 Pro",
+    "fabricante": "Sony",
+    "valor": 7999.99,
+    "quantidade": 2,
+    "img_produto": "/uploads/1726073700145.jpg"
+  },
+  {
+    "id": 1726073888504,
+    "nome": "Placa de Video RTX 4070 TI TUF Gaming",
+    "fabricante": "Asus - Nvidia",
+    "valor": 4500.99,
+    "quantidade": 4,
+    "img_produto": "/uploads/1726073888502.jpg"
+  },
+  {
+    "id": 1726073947904,
+    "nome": "Controle Xbox Dourado Preto Sem Fio",
+    "fabricante": "Microsoft",
+    "valor": 899.99,
+    "quantidade": 8,
+    "img_produto": "/uploads/1726073947903.jpg"
+  },
+  {
+    "id": 1726162312368,
+    "nome": "Console Xbox Series X Forza 5",
+    "fabricante": "Microsoft",
+    "valor": 3599.99,
+    "quantidade": 4,
+    "img_produto": "/uploads/1726162312363.jpg"
+  }
+]
